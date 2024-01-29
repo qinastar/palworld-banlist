@@ -11,6 +11,18 @@
             "ban_time": "2024/01/25 23:00",
             "ban_reason": "开挂刷物资",
             "server": "STARYUI.ME SERVER 3服"
+        },
+        {
+            "steam_id": "steam_00000000000000000",
+            "ban_time": "2024/01/25 12:00",
+            "ban_reason": "Official Ban",
+            "server": "Official Ban"
+        },
+        {
+            "steam_id": "steam_00000000000000001",
+            "ban_time": "2024/01/28 12:00",
+            "ban_reason": "Official Ban",
+            "server": "Official Ban"
         }
     ]
 }
