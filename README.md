@@ -1,28 +1,38 @@
-A list of bans, useful for replacing official lists
-一个简单的 banlist，用于替换官方的 banlist
+# Palworld Banlist
 
-**你可以向本仓库推送你封禁的玩家，并且记录封禁原因。**
+这是一个简单的 banlist，旨在提供官方 banlist 的替代选项。
+A simple banlist designed to serve as an alternative to the official banlists.
 
-## 用法
+**您可以通过提交您封禁的玩家名单及其封禁原因来为这个仓库做出贡献。**
+**Contribute to this repository by submitting the names of players you've banned along with the reasons for their bans.**
 
-### 1. 直接放入目录（不推荐）
+## 使用指南 Usage Guide
 
-下载`banlist.txt`，放入`/Pal/Saved/SaveGames`目录下即可。
+### 方法一：直接放入游戏目录（不推荐） Method 1: Direct Directory Placement (Not Recommended)
 
-### 2. 配置文件载入
+下载 `banlist.txt` 文件并将其放入 `/Pal/Saved/SaveGames` 目录下。
+Download the `banlist.txt` file and place it into the `/Pal/Saved/SaveGames` directory.
 
-打开你的`PalWorldSettings.ini`文件，找到以下内容：
+### 方法二：通过配置文件加载 Method 2: Load via Configuration File
+
+打开 `PalWorldSettings.ini` 配置文件，并找到以下条目：
+Open your `PalWorldSettings.ini` then find the following entry:
 
 ```ini
 BanListURL="https://api.palworldgame.com/api/banlist.txt"
 ```
 
-修改为：
+将其修改为：
+Change it to:
 
 ```ini
 BanListURL="https://raw.githubusercontent.com/qinastar/palworld-banList/main/banlist.txt"
 ```
 
-## json
+## JSON
 
-写了一个简单的 json 文件，也许会用于后续的一些功能。
+提供了一个简单的 JSON 文件，可能适用于未来的某些功能。
+A simple JSON file is provided, potentially useful for future functionalities.
+
+同时，我们还添加了一个 HTML 页面，您可以在任何地方引用和集成它。
+An HTML page has also been added, allowing for easy reference and integration anywhere.

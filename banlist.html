@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ban List Viewer</title>
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+</head>
+<body>
+
+<h2>Banned Players List</h2>
+
+<table id="banListTable">
+  <tr>
+    <th>Steam ID</th>
+    <th>Ban Time</th>
+    <th>Ban Reason</th>
+    <th>Server</th>
+  </tr>
+  <!-- Ban list entries will be inserted here by JavaScript -->
+</table>
+
+<script>
+// Function to fetch ban list and populate the table
+// Function to fetch ban list and populate the table
+function fetchBanList() {
+  const apiUrl = 'https://raw.githubusercontent.com/qinastar/palworld-banList/main/ban_info.json';
+
+  fetch(apiUrl)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok ' + response.statusText);
+      }
+      return response.json();
+    })
+    .then(data => {
+      populateTable(data.ban_list);
+    })
+    .catch(error => {
+      console.error('There has been a problem with your fetch operation:', error);
+    });
+}
+
+// Function to populate the table with ban list data
+function populateTable(banList) {
+  const table = document.getElementById('banListTable');
+  banList.forEach(player => {
+    const row = table.insertRow();
+    const steamIdCell = row.insertCell();
+
+    // Remove "steam_" prefix if it exists
+    const steamId = player.steam_id.replace('steam_', '');
+
+    const steamProfileUrl = `https://steamcommunity.com/profiles/${steamId}`;
+    steamIdCell.innerHTML = `<a href="${steamProfileUrl}" target="_blank">${steamId}</a>`;
+    row.insertCell().textContent = player.ban_time;
+    row.insertCell().textContent = player.ban_reason;
+    row.insertCell().textContent = player.server;
+  });
+}
+
+// Call fetchBanList when the window loads
+window.onload = fetchBanList;
+
+</script>
+
+</body>
+</html>
