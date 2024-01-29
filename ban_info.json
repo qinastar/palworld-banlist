@@ -20,9 +20,27 @@
         },
         {
             "steam_id": "steam_00000000000000001",
-            "ban_time": "2024/01/28 12:00",
+            "ban_time": "2024/01/28 00:00",
             "ban_reason": "Official Ban",
             "server": "Official Ban"
+        },
+        {
+            "steam_id": "steam_76561198289328316",
+            "ban_time": "2024/01/28 21:50",
+            "ban_reason": "Hacker wiping server",
+            "server": "[South-East Asia/SG] No Drop on Death"
+        },
+        {
+            "steam_id": "steam_76561199588653788",
+            "ban_time": "2024/01/28 23:10",
+            "ban_reason": "Hacker wiping server",
+            "server": "[South-East Asia/SG] No Drop on Death"
+        },
+        {
+            "steam_id": "steam_76561199103883425",
+            "ban_time": "2024/01/29 08:30",
+            "ban_reason": "Hacker wiping server",
+            "server": "[South-East Asia/SG] No Drop on Death"
         }
     ]
 }
