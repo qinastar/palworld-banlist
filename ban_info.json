@@ -1,18 +1,6 @@
 {
     "ban_list": [
         {
-            "steam_id": "steam_76561198131004934",
-            "ban_time": "2024/01/24 23:00",
-            "ban_reason": "Hacker",
-            "server": "STARYUI.ME SERVER SERVER 3"
-        },
-        {
-            "steam_id": "steam_76561199007427103",
-            "ban_time": "2024/01/25 23:00",
-            "ban_reason": "Hacker & Use exploit",
-            "server": "STARYUI.ME SERVER SERVER 3"
-        },
-        {
             "steam_id": "steam_00000000000000000",
             "ban_time": "2024/01/25 12:00",
             "ban_reason": "Official Ban",
@@ -24,6 +12,24 @@
             "ban_reason": "Official Ban",
             "server": "Official Ban"
         },
+        {
+            "steam_id": "<null/err>",
+            "ban_time": "2024/01/28 00:00",
+            "ban_reason": "Official Ban",
+            "server": "Official Ban"
+        },
+        {
+            "steam_id": "steam_76561198131004934",
+            "ban_time": "2024/01/24 23:00",
+            "ban_reason": "Hacker",
+            "server": "STARYUI.ME SERVER SERVER 3"
+        },
+        {
+            "steam_id": "steam_76561199007427103",
+            "ban_time": "2024/01/25 23:00",
+            "ban_reason": "Hacker & Use exploit",
+            "server": "STARYUI.ME SERVER SERVER 3"
+        },    
         {
             "steam_id": "steam_76561198289328316",
             "ban_time": "2024/01/28 21:50",
@@ -41,6 +47,24 @@
             "ban_time": "2024/01/29 08:30",
             "ban_reason": "Hacker wiping server",
             "server": "[South-East Asia/SG] No Drop on Death"
+        },
+        {
+            "steam_id": "steam_76561198114943706",
+            "ban_time": "2024/01/29 08:30",
+            "ban_reason": "Hacker",
+            "server": "STARYUI HARDCORE"
+        },
+        {
+            "steam_id": "steam_76561198360434154",
+            "ban_time": "2024/01/29 08:30",
+            "ban_reason": "Hacker",
+            "server": "STARYUI HARDCORE"
+        },
+        {
+            "steam_id": "steam_76561199234304561",
+            "ban_time": "2024/01/29 08:30",
+            "ban_reason": "Hacker",
+            "server": "STARYUI HARDCORE"
         }
     ]
 }
