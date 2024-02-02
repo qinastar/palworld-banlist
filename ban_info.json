@@ -83,6 +83,18 @@
             "ban_time": "2024/02/01 01:40",
             "ban_reason": "Hacker wiping server",
             "server": "[South-East Asia/SG] No Drop on Death"
+        },
+        {
+            "steam_id": "steam_76561199145904344",
+            "ban_time": "2024/02/02 15:00",
+            "ban_reason": "Hacker wiping server",
+            "server": "[South-East Asia/SG] No Drop on Death"
+        },
+        {
+            "steam_id": "steam_76561198051401578",
+            "ban_time": "2024/02/02 20:40",
+            "ban_reason": "Hacker wiping server",
+            "server": "[South-East Asia/SG] No Drop on Death"
         }
     ]
 }
