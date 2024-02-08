@@ -107,6 +107,36 @@
             "ban_time": "2024/02/07 10:20",
             "ban_reason": "Fraudulent advertising bot",
             "server": "IllusionCommunications"
+        },
+        {
+            "steam_id": "steam_76561198998250573",
+            "ban_time": "2024/02/08 20:00",
+            "ban_reason": "[Banned by PalGuard]Cheat & Exploit",
+            "server": "STARYUI SERVER"
+        },
+        {
+            "steam_id": "steam_76561198319060611",
+            "ban_time": "2024/02/08 20:28",
+            "ban_reason": "[Banned by PalGuard]Cheat & Exploit",
+            "server": "STARYUI SERVER"
+        },
+        {
+            "steam_id": "steam_76561198978292569",
+            "ban_time": "2024/02/08 20:46",
+            "ban_reason": "[Banned by PalGuard]Cheat & Exploit",
+            "server": "STARYUI SERVER"
+        },
+        {
+            "steam_id": "steam_76561199145048084",
+            "ban_time": "2024/02/08 21:15",
+            "ban_reason": "[Banned by PalGuard]Cheat & Exploit",
+            "server": "STARYUI SERVER"
+        },
+        {
+            "steam_id": "steam_76561198144157662",
+            "ban_time": "2024/02/08 21:47",
+            "ban_reason": "[Banned by PalGuard]Cheat & Exploit",
+            "server": "STARYUI SERVER"
         }
     ]
 }
