@@ -137,6 +137,30 @@
             "ban_time": "2024/02/08 21:47",
             "ban_reason": "[Banned by PalGuard]Cheat & Exploit",
             "server": "STARYUI SERVER"
+        },
+        {
+            "steam_id": "steam_76561198441686403",
+            "ban_time": "2024/02/09 16:43",
+            "ban_reason": "Cheat & Exploit",
+            "server": "就决定是你了！黑奴！"
+        },
+        {
+            "steam_id": "steam_76561199473537242",
+            "ban_time": "2024/02/09 16:43",
+            "ban_reason": "Cheat",
+            "server": "就决定是你了！黑奴！"
+        },
+        {
+            "steam_id": "steam_76561198905563155",
+            "ban_time": "2024/02/09 16:43",
+            "ban_reason": "Cheat",
+            "server": "就决定是你了！黑奴！"
+        },
+        {
+            "steam_id": "steam_76561197960287930",
+            "ban_time": "2024/02/09 16:43",
+            "ban_reason": "Cheat & Exploit",
+            "server": "就决定是你了！黑奴！"
         }
     ]
 }
