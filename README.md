@@ -1,6 +1,7 @@
 # Palworld Banlist
 
 [中文版](README_zh-CN.md)
+
 A simple banlist designed to serve as an alternative to the official banlists.
 
 **Contribute to this repository by submitting the names of players you've banned along with the reasons for their bans.**
